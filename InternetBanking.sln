@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking", "InternetBanking\InternetBanking.csproj", "{EE2FD444-A27E-477D-99C9-7DAD97A5C822}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9D4180C9-DBEA-410F-A817-EF6DD67564B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9AE9D09A-4B0B-4AEC-94FD-6BDC22651C99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{39808399-3DE6-443D-85EE-2AFC1983AB9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{46EE3049-FC33-479E-8B97-E037B834B4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{3AAC2699-0C35-4961-A482-C2A272681514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking.Core.Domain", "InternetBanking.Core.Domain\InternetBanking.Core.Domain.csproj", "{FF956166-ED2E-4859-A912-89B5F2B22F62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking.Core.Application", "InternetBanking.Core.Application\InternetBanking.Core.Application.csproj", "{18234445-C09F-4384-9E4D-75EB2A59F584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking.Infrastructure.Persistence", "InternetBanking.Infrastructure.Persistence\InternetBanking.Infrastructure.Persistence.csproj", "{0E8EFAB0-7CDB-4070-8181-485818B65746}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking.Infrastructure.Shared", "InternetBanking.Infrastructure.Shared\InternetBanking.Infrastructure.Shared.csproj", "{5DE77234-A9F0-4A6B-9E61-7D69D93D077C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking.Infrastructure.Identity", "InternetBanking.Infrastructure.Identity\InternetBanking.Infrastructure.Identity.csproj", "{D3C7CF99-F84A-4C17-89DE-0ED3BF16E93B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2FD444-A27E-477D-99C9-7DAD97A5C822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2FD444-A27E-477D-99C9-7DAD97A5C822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2FD444-A27E-477D-99C9-7DAD97A5C822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2FD444-A27E-477D-99C9-7DAD97A5C822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF956166-ED2E-4859-A912-89B5F2B22F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF956166-ED2E-4859-A912-89B5F2B22F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF956166-ED2E-4859-A912-89B5F2B22F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF956166-ED2E-4859-A912-89B5F2B22F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18234445-C09F-4384-9E4D-75EB2A59F584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18234445-C09F-4384-9E4D-75EB2A59F584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18234445-C09F-4384-9E4D-75EB2A59F584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18234445-C09F-4384-9E4D-75EB2A59F584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8EFAB0-7CDB-4070-8181-485818B65746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8EFAB0-7CDB-4070-8181-485818B65746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8EFAB0-7CDB-4070-8181-485818B65746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8EFAB0-7CDB-4070-8181-485818B65746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE77234-A9F0-4A6B-9E61-7D69D93D077C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE77234-A9F0-4A6B-9E61-7D69D93D077C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE77234-A9F0-4A6B-9E61-7D69D93D077C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE77234-A9F0-4A6B-9E61-7D69D93D077C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C7CF99-F84A-4C17-89DE-0ED3BF16E93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C7CF99-F84A-4C17-89DE-0ED3BF16E93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C7CF99-F84A-4C17-89DE-0ED3BF16E93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C7CF99-F84A-4C17-89DE-0ED3BF16E93B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE2FD444-A27E-477D-99C9-7DAD97A5C822} = {3AAC2699-0C35-4961-A482-C2A272681514}
+		{9AE9D09A-4B0B-4AEC-94FD-6BDC22651C99} = {9D4180C9-DBEA-410F-A817-EF6DD67564B6}
+		{39808399-3DE6-443D-85EE-2AFC1983AB9D} = {9D4180C9-DBEA-410F-A817-EF6DD67564B6}
+		{46EE3049-FC33-479E-8B97-E037B834B4AE} = {9D4180C9-DBEA-410F-A817-EF6DD67564B6}
+		{3AAC2699-0C35-4961-A482-C2A272681514} = {9AE9D09A-4B0B-4AEC-94FD-6BDC22651C99}
+		{FF956166-ED2E-4859-A912-89B5F2B22F62} = {46EE3049-FC33-479E-8B97-E037B834B4AE}
+		{18234445-C09F-4384-9E4D-75EB2A59F584} = {46EE3049-FC33-479E-8B97-E037B834B4AE}
+		{0E8EFAB0-7CDB-4070-8181-485818B65746} = {39808399-3DE6-443D-85EE-2AFC1983AB9D}
+		{5DE77234-A9F0-4A6B-9E61-7D69D93D077C} = {39808399-3DE6-443D-85EE-2AFC1983AB9D}
+		{D3C7CF99-F84A-4C17-89DE-0ED3BF16E93B} = {39808399-3DE6-443D-85EE-2AFC1983AB9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ADEEC7A-BD30-4528-B1F2-D45A0EF51195}
+	EndGlobalSection
+EndGlobal
